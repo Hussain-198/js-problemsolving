@@ -10,9 +10,8 @@ function bubbleSort(arr) {
                 arr[j + 1] = temp;
 
             }
-
         }
     }
-    console.log(arr)
+    console.log(arr.join(" "));
 }
 bubbleSort([3, 1, 0, 2, -1])

@@ -4,7 +4,7 @@ function alreadyPresent(arr, value) {
         if (arr[i] == value) {
             alreadyPre = true;
             console.log(`${value} already present in the Array`);
-            break;
+            return;
         }
     }
     if (!alreadyPre) {
@@ -12,4 +12,4 @@ function alreadyPresent(arr, value) {
         console.log(arr);
     }
 }
-alreadyPresent([5, 10, 3, 11, 18], 11)
+alreadyPresent([5, 10, 3, 11, 18], 4)
